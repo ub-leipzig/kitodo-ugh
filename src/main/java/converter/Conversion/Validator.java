@@ -1,3 +1,14 @@
+/*
+ *
+ * (c) Kitodo. Key to digital objects e. V. <contact@kitodo.org>
+ *
+ * This file is part of the Kitodo project.
+ *
+ * It is licensed under GNU General Public License version 3 or later.
+ *
+ * For the full copyright and license information, please read the
+ * GPL3-License.txt file that was distributed with this source code.
+ */
 package converter.Conversion;
 
 
@@ -16,7 +27,7 @@ import ugh.dl.Metadata;
 import ugh.dl.MetadataType;
 import ugh.dl.Prefs;
 import ugh.dl.Reference;
-import ugh.exceptions.PreferencesException;
+import ugh.dl.exceptions.PreferencesException;
 
 public class Validator {
 

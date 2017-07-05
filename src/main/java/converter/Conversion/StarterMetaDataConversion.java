@@ -1,3 +1,14 @@
+/*
+ *
+ * (c) Kitodo. Key to digital objects e. V. <contact@kitodo.org>
+ *
+ * This file is part of the Kitodo project.
+ *
+ * It is licensed under GNU General Public License version 3 or later.
+ *
+ * For the full copyright and license information, please read the
+ * GPL3-License.txt file that was distributed with this source code.
+ */
 package converter.Conversion;
 
 import java.io.BufferedReader;
@@ -14,9 +25,9 @@ import org.apache.logging.log4j.LogManager;
 import ugh.dl.DigitalDocument;
 import ugh.dl.Fileformat;
 import ugh.dl.Prefs;
-import ugh.exceptions.ReadException;
-import ugh.fileformats.excel.RDFFile;
-import ugh.fileformats.mets.MetsMods;
+import ugh.dl.exceptions.ReadException;
+import ugh.dl.fileformats.excel.RDFFile;
+import ugh.dl.fileformats.mets.MetsMods;
 
 import converter.logger.Commit;
 import converter.logger.Filesave;

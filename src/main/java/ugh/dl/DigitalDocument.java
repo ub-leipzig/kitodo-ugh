@@ -1,3 +1,14 @@
+/*
+ *
+ * (c) Kitodo. Key to digital objects e. V. <contact@kitodo.org>
+ *
+ * This file is part of the Kitodo project.
+ *
+ * It is licensed under GNU General Public License version 3 or later.
+ *
+ * For the full copyright and license information, please read the
+ * GPL3-License.txt file that was distributed with this source code.
+ */
 package ugh.dl;
 
 /*******************************************************************************
@@ -46,10 +57,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.w3c.dom.Node;
 
-import ugh.exceptions.ContentFileNotLinkedException;
-import ugh.exceptions.PreferencesException;
-import ugh.exceptions.TypeNotAllowedForParentException;
-import ugh.exceptions.WriteException;
+import ugh.dl.exceptions.ContentFileNotLinkedException;
+import ugh.dl.exceptions.PreferencesException;
+import ugh.dl.exceptions.TypeNotAllowedForParentException;
+import ugh.dl.exceptions.WriteException;
 
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.DomDriver;

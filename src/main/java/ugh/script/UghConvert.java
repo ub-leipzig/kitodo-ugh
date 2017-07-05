@@ -1,3 +1,14 @@
+/*
+ *
+ * (c) Kitodo. Key to digital objects e. V. <contact@kitodo.org>
+ *
+ * This file is part of the Kitodo project.
+ *
+ * It is licensed under GNU General Public License version 3 or later.
+ *
+ * For the full copyright and license information, please read the
+ * GPL3-License.txt file that was distributed with this source code.
+ */
 package ugh.script;
 
 /*******************************************************************************
@@ -39,14 +50,14 @@ import ugh.dl.Fileformat;
 import ugh.dl.Metadata;
 import ugh.dl.Prefs;
 import ugh.dl.VirtualFileGroup;
-import ugh.exceptions.PreferencesException;
-import ugh.exceptions.ReadException;
-import ugh.exceptions.WriteException;
-import ugh.fileformats.excel.RDFFile;
-import ugh.fileformats.mets.MetsMods;
-import ugh.fileformats.mets.MetsModsImportExport;
-import ugh.fileformats.mets.XStream;
-import ugh.fileformats.opac.PicaPlus;
+import ugh.dl.exceptions.PreferencesException;
+import ugh.dl.exceptions.ReadException;
+import ugh.dl.exceptions.WriteException;
+import ugh.dl.fileformats.excel.RDFFile;
+import ugh.dl.fileformats.mets.MetsMods;
+import ugh.dl.fileformats.mets.MetsModsImportExport;
+import ugh.dl.fileformats.mets.XStream;
+import ugh.dl.fileformats.opac.PicaPlus;
 
 /*******************************************************************************
  * <p>

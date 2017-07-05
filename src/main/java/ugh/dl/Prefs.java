@@ -1,3 +1,14 @@
+/*
+ *
+ * (c) Kitodo. Key to digital objects e. V. <contact@kitodo.org>
+ *
+ * This file is part of the Kitodo project.
+ *
+ * It is licensed under GNU General Public License version 3 or later.
+ *
+ * For the full copyright and license information, please read the
+ * GPL3-License.txt file that was distributed with this source code.
+ */
 package ugh.dl;
 
 /*******************************************************************************
@@ -44,7 +55,7 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 
-import ugh.exceptions.PreferencesException;
+import ugh.dl.exceptions.PreferencesException;
 
 /*******************************************************************************
  * <b>Title:</b> Preferences

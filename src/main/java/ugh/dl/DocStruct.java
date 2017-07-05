@@ -1,23 +1,14 @@
-/*******************************************************************************
- * ugh.dl / DocStruct.java
+/*
  *
- * Copyright 2010 Center for Retrospective Digitization, Göttingen (GDZ)
+ * (c) Kitodo. Key to digital objects e. V. <contact@kitodo.org>
  *
- * http://gdz.sub.uni-goettingen.de
+ * This file is part of the Kitodo project.
  *
- * This program is free software; you can redistribute it and/or modify it
- * under the terms of the GNU Lesser General Public License as published by
- * the Free Software Foundation; either version 3 of the License, or (at your
- * option) any later version.
+ * It is licensed under GNU General Public License version 3 or later.
  *
- * This Library is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- * FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License
- * for more details.
- *
- * You should have received a copy of the GNU Lesser General Public License
- * along with this library. If not, see <http://www.gnu.org/licenses/>.
- ******************************************************************************/
+ * For the full copyright and license information, please read the
+ * GPL3-License.txt file that was distributed with this source code.
+ */
 package ugh.dl;
 
 import java.io.File;
@@ -41,15 +32,15 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 import ugh.dl.DigitalDocument.ListPairCheck;
-import ugh.exceptions.ContentFileNotLinkedException;
-import ugh.exceptions.DocStructHasNoTypeException;
-import ugh.exceptions.IncompletePersonObjectException;
-import ugh.exceptions.MetadataTypeNotAllowedException;
-import ugh.exceptions.PreferencesException;
-import ugh.exceptions.TypeNotAllowedAsChildException;
-import ugh.exceptions.TypeNotAllowedForParentException;
-import ugh.exceptions.UGHException;
-import ugh.fileformats.mets.MetsModsImportExport;
+import ugh.dl.exceptions.ContentFileNotLinkedException;
+import ugh.dl.exceptions.DocStructHasNoTypeException;
+import ugh.dl.exceptions.IncompletePersonObjectException;
+import ugh.dl.exceptions.MetadataTypeNotAllowedException;
+import ugh.dl.exceptions.PreferencesException;
+import ugh.dl.exceptions.TypeNotAllowedAsChildException;
+import ugh.dl.exceptions.TypeNotAllowedForParentException;
+import ugh.dl.exceptions.UGHException;
+import ugh.dl.fileformats.mets.MetsModsImportExport;
 
 /**
  * One node of a tree depicting the structure of the document.

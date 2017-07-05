@@ -1,3 +1,14 @@
+/*
+ *
+ * (c) Kitodo. Key to digital objects e. V. <contact@kitodo.org>
+ *
+ * This file is part of the Kitodo project.
+ *
+ * It is licensed under GNU General Public License version 3 or later.
+ *
+ * For the full copyright and license information, please read the
+ * GPL3-License.txt file that was distributed with this source code.
+ */
 package ugh.dl;
 
 /*******************************************************************************
@@ -21,9 +32,9 @@ package ugh.dl;
  * along with this library. If not, see <http://www.gnu.org/licenses/>.
  ******************************************************************************/
 
-import ugh.exceptions.PreferencesException;
-import ugh.exceptions.ReadException;
-import ugh.exceptions.WriteException;
+import ugh.dl.exceptions.PreferencesException;
+import ugh.dl.exceptions.ReadException;
+import ugh.dl.exceptions.WriteException;
 
 /*******************************************************************************
  * <p>
